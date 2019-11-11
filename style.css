@@ -23,3 +23,12 @@ body {
   table-layout: fixed;
   width: 200px;
 }
+.column {
+  display: table-cell;
+}
+#calc-zero {
+  width: 98.66666667px;
+}
+#calc-clear {
+  width: 98.66666667px;
+}
