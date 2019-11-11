@@ -27,11 +27,11 @@ body {
   display: table-cell;
 }
 #calc-zero {
-  width: 98.66666667px;
+  width: 52.66666667px;
   border-radius: 0 0 0 7px;
 }
 #calc-clear {
-  width: 98.66666667px;
+  width: 52.66666667px;
 }
 #calc-display-val {
   height: 80px;
