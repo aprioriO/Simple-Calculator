@@ -28,6 +28,7 @@ body {
 }
 #calc-zero {
   width: 98.66666667px;
+  border-radius: 0 0 0 7px;
 }
 #calc-clear {
   width: 98.66666667px;
@@ -53,4 +54,8 @@ body {
 h1 {
   text-align: center;
   margin-top: 50px;
+}
+#calc-equals {
+  border-radius: 0 0 7px 0;
+
 }
