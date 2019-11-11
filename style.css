@@ -15,3 +15,11 @@ body {
   font-weight: 100;
   padding-top: 3px;
 }
+.calc-btn:hover{
+  background-color: orange;
+}
+.row {
+  display: table;
+  table-layout: fixed;
+  width: 200px;
+}
