@@ -32,3 +32,25 @@ body {
 #calc-clear {
   width: 98.66666667px;
 }
+#calc-display-val {
+  height: 80px;
+  color: white;
+  text-align: right;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  font-size: 48px;
+  background-color: #383838;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 12px;
+  border-radius: 7px 7px 0 0;
+}
+.calc-btn-operator {
+  background-color: orange;
+  color; white;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
