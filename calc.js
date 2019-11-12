@@ -16,3 +16,11 @@ var displayValElement = document.getElementById('calc-display-val');
 
 var calcNumBtns = document.getElementsByClassName('calc-btn-num');
 var calcOperatorBtns = document.getElementsByClassName('calc-btn-operator');
+
+for (let i = 0; i < calcNumBtns.length; i++) {
+   calcNumBtns[i].addEventListener('click', updateDisplayVal, false)
+}
+
+for (let i = 0; i < calcOperatorBtns.length; i++) {
+   calcOperatorBtns[i].addEventListener('click', perfomOperation, false)
+}
