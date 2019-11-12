@@ -39,3 +39,10 @@ for (let i = 0; i < calcNumBtns.length; i++) {
 // for (let i = 0; i < calcOperatorBtns.length; i++) {
 //    calcOperatorBtns[i].addEventListener('click', perfomOperation, false)
 // }
+
+clearBtn.onclick = () => {
+   displayVal = '0';
+   pendingVal = undefined;
+   evalStringArray = [];
+   displayValElement.innerHTML = displayVal;
+}
