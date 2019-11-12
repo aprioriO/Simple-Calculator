@@ -34,14 +34,14 @@ body {
   width: 52.66666667px;
 }
 #calc-display-val {
-  height: 80px;
+  height: 60px;
   color: white;
   text-align: right;
   border-left: 1px solid grey;
   border-right: 1px solid grey;
   border-top: 1px solid grey;
   font-size: 48px;
-  background-color: #383838;
+  background-color: #5C5C5C;
   overflow: hidden;
   white-space: nowrap;
   padding: 12px;
@@ -57,5 +57,7 @@ h1 {
 }
 #calc-equals {
   border-radius: 0 0 7px 0;
-
+}
+#calc-parent {
+  margin-left: calc(50% - 100px);
 }
